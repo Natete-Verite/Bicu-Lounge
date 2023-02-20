@@ -1,179 +1,233 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    /* padding: 30px; */
-    
-  }
-  header img{
-    width: 10%;
-   }
-  header nav{
-    overflow: hidden;
-    background-color: #333;
-    position: fixed; 
-    top: 0; 
-    width: 100%;
-  }
-  
-  header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: right;
-  }
-  
-  header nav ul li {
-    margin-right: 5%;
-  }
-  
-  header nav a {
-    float: left;
-    padding: 14px 5px ;
-    color: #fff;
-    text-decoration: none;
-  }
-  nav a:hover {
-    background: #ddd;
-    color: black;
-  }
-
-  .heroc{
-    position: relative;
-  }
-
-  .hero, .heroine {
-    position: absolute;
-    top: 0; 
-    left: 0;
-    width: 100%; 
-    height: 100%;
-  }
-  .hero {
-    background-image: url(bicu9.JPG);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    filter: blur(5px);
-    height: 500px;
-    position: relative;
-    z-index: 1;
-  
-  }
-
-  .heroine {
-    text-align: center;    
-    color: #fff;
-    font-size: 20px;
-    text-shadow: 2px 2px #545454;
-    position: absolute;
-    z-index: 2;
-    margin-top: 17%;
-  }
-  .heroine h1 {
-    color: #fff;
-    size: 100px;
- }
-  .heroine p{
-    color: #fff;
-    size: 50px;
-    margin-top: 1%;
-  }
-  
-  .about {
-    text-align: center;
-    margin-top: 5%;
-    font-size: 40px;
-  }
-  .about p{
-    font-size: 15px;
-    color: #fff;
-    background-color: rgb(22, 61, 22);
-    border: none;
-    border-radius: 20px;
-    width: 45%;
-    padding: 20px;
-    margin-right:5%;
-  }
-  .aboutimage{
-    display: flex;
-    margin-left: 10%;
-    margin-top: 5%;
-  }
-  .aboutimage img{
-    width: 30%;
-    height: 30%;
-    border-radius: 20px;
-  }
-
-  .menu {
-    text-align: center;
-    margin-top: 5%;
-    font-size: 40px;
-
-}
-.menu p{
-    font-size: 20px;
-    margin-top: 3%;
-}
-.qr{
-    background-color: green;
-    width: 30%;
-    height: 30px;
-    border-radius: 20px;
-    margin: auto;
-    text-align: center;
-}
-.menu img{
-    margin-top: 5%;
-    width: 20%;
-}
-.gallery{
-    text-align: center;
-    margin-top: 5%;
-    font-size: 40px;
-
-}
-.photos img{
-   width: 35%;
-   margin-top: 2%;
+  font-family: Arial, sans-serif;
+  /* background-color: #f2f2f2; */
+  background-color: #000;
+  margin: 0;
 }
 
-  .events {
-    text-align: center;
-    margin-top: 5%;
-    font-size: 40px;
+header {
+  background-color: #333;
+  color: #fff;
+  /* padding: 30px; */
+}
+header img {
+  width: 10%;
+}
+header nav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-      
-  }
-  .events ul li {
-    list-style: none;
-    font-size: 20px;
-  }
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+}
 
-  .contact {
-    text-align: center;
-    margin-top: 5%;
-    font-size: 40px;
-  }
-  .contact p{
-    font-size: 20px;
-  }
+header nav ul li {
+  margin-right: 5%;
+}
 
-  footer{
-    margin-top: 3%;
-    padding: 2%;
-    text-align: center;
-    background-color: rgb(105, 105, 105);
+header nav a {
+  float: left;
+  padding: 14px 5px;
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.heroc {
+  position: relative;
+  margin-top: 25%;
+}
+
+.hero,
+.heroine {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 550px;
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  box-shadow: -1px 5px 15px black;
+}
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  display: flex;
+  animation: slide 16s infinite;
+}
+
+.imgwrapper {
+  width: 100%;
+
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  55% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-200%);
+  }
+  80% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+}
+
+.heroine {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 2px 2px #545454;
+  position: absolute;
+  z-index: 2;
+  margin-top: 17%;
+}
+.heroine h1 {
+  color: #fff;
+  size: 100px;
+}
+.heroine p {
+  color: #fff;
+  size: 50px;
+  margin-top: 1%;
+}
+
+.about {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 40px;
+}
+.about h2 {
+  color: #fff;
+}
+.about p {
+  font-size: 15px;
+  color: #fff;
+  background-color: rgb(22, 61, 22);
+  border: none;
+  border-radius: 20px;
+  width: 45%;
+  padding: 20px;
+  margin-right: 5%;
+}
+.aboutimage {
+  display: flex;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.aboutimage img {
+  width: 30%;
+  height: 30%;
+  border-radius: 20px;
+}
+
+.menu {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 40px;
+}
+.menu h2 {
+  color: #fff;
+}
+.menu p {
+  font-size: 20px;
+  margin-top: 3%;
+}
+.qr {
+  background-color: green;
+  width: 30%;
+  height: 30px;
+  border-radius: 20px;
+  margin: auto;
+  text-align: center;
+}
+.menu img {
+  margin-top: 5%;
+  width: 20%;
+}
+.gallery {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 40px;
+}
+.gallery h2 {
+  color: #fff;
+}
+
+.photos img {
+  width: 35%;
+  margin-top: 2%;
+}
+
+.events {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 40px;
+  color: #fff;
+}
+/* .events h2{
     color: #fff;
-  }
+  } */
+.events ul li {
+  list-style: none;
+  font-size: 20px;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 40px;
+  color: #fff;
+}
+/* .contact h2{
+    color: #fff;
+  } */
+.contact p {
+  font-size: 20px;
+}
+
+footer {
+  margin-top: 3%;
+  padding: 2%;
+  text-align: center;
+  background-color: rgb(105, 105, 105);
+  color: #fff;
+}
