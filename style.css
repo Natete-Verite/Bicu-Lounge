@@ -108,7 +108,7 @@ nav a:hover {
     transform: translateX(-300%);
   }
 } */
-
+/* 
 .container {
   position: relative;
   width: 100%;
@@ -161,7 +161,10 @@ nav a:hover {
 
 .imgwrapper:nth-child(4) {
   animation: slideshow 12s infinite 6s;
-}
+} */
+
+
+
 .about {
   margin-left: 10%;
   font-size: 40px;
@@ -317,9 +320,9 @@ span{
 }
 .events {
   text-align: center;
-  margin-top: 5%;
   font-size: 40px;
   color: #FFDA00;
+  padding: 5%;
 }
 
 .events ul li {
@@ -327,6 +330,14 @@ span{
   font-size: 20px;
   color: #fff;
 
+}
+.parallaxfive {
+  background-image: url("bicu21.jpeg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contact {
