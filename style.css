@@ -21,6 +21,7 @@ header nav {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1000;
 }
 
 header nav ul {
@@ -176,6 +177,7 @@ span{
 }
 .about h2 {
   color: #FFDA00;
+  font-family: Reina Neue Display Bold;
 }
 .about p {
   font-size: 15px;
@@ -206,6 +208,7 @@ span{
 }
 .taste h2 {
   color: #FFDA00;
+  font-family: Reina Neue Display Bold;
 
 }
 .taste p {
@@ -237,6 +240,7 @@ span{
 }
 .sight h2 {
   color: #FFDA00;
+  font-family: Reina Neue Display Bold;
 
 }
 .sight p {
@@ -268,6 +272,7 @@ span{
 }
 .feeling h2 {
   color: #FFDA00;
+  font-family: Reina Neue Display Bold;
 
 }
 .feeling p {
@@ -300,7 +305,7 @@ span{
 }
 .vibe h2 {
   color: #FFDA00;
-  
+  font-family: Reina Neue Display Bold;
 
 }
 .vibe p {
@@ -324,7 +329,10 @@ span{
   color: #FFDA00;
   padding: 5%;
 }
+.events h2{
+  font-family: Reina Neue Display Bold;
 
+}
 .events ul li {
   list-style: none;
   font-size: 20px;
@@ -339,7 +347,26 @@ span{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.ig{
+  background-color: #FFDA00;
+}
 
+.ig h2{
+  font-family: Reina Neue Display Bold;
+  text-align: center;
+  font-size: 60px;
+  color: #003015;
+  padding: 3%;
+}
+
+.parallaxsix {
+  background-image: url("bicu2.JPG");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .contact {
   text-align: center;
   margin-left: 5%;
@@ -348,8 +375,13 @@ span{
   color: #FFDA00;
   display: flex;
 }
+.contact h2{
+  font-family: Reina Neue Display Bold;
+
+}
 .contact p{
   color: #fff;
+  font-size: 20px;
 
 }
 .info{
@@ -358,9 +390,6 @@ span{
 
 }
 
-.contact p {
-  font-size: 20px;
-}
 .google-map{
   margin-left: 10%;
   margin-top: 3%;
@@ -371,7 +400,7 @@ footer {
   margin-top: 3%;
   padding: 2%;
   text-align: center;
-  background-color: rgb(105, 105, 105);
+  background-color: #333;
   color: #fff;
 }
 .icons i{
