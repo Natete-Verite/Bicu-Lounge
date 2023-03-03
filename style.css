@@ -47,125 +47,6 @@ nav a:hover {
   color: black;
 }
 
-/* .heroc {
-  position: relative;
-  margin-top: 25%;
-  height: auto;
-}
-
-
-.container {
-  background-color: silver;
-  width: 100%;
-  height: 500px;
-  position: relative;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  overflow: hidden;
-  box-shadow: -1px 5px 15px black;
-}
-
-.wrapper {
-  
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  animation: slide 16s infinite;
-}
-
-.imgwrapper {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: fill;
-
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-  25% {
-    transform: translateX(0);
-  }
-  30% {
-    transform: translateX(-100%);
-  }
-  50% {
-    transform: translateX(-100%);
-  }
-  55% {
-    transform: translateX(-200%);
-  }
-  75% {
-    transform: translateX(-200%);
-  }
-  80% {
-    transform: translateX(-300%);
-  }
-  100% {
-    transform: translateX(-300%);
-  }
-} */
-/* 
-.container {
-  position: relative;
-  width: 100%;
-  height: 500px;
-}
-
-.wrapper {
-  position: absolute;
-  width: 100%;
-  height: 90%;
-}
-
-.imgwrapper {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-}
-
-.imgwrapper:first-child {
-  display: block;
-}
-
-@keyframes slideshow {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-.imgwrapper:nth-child(1) {
-  animation: slideshow 12s infinite 3s;
-}
-
-.imgwrapper:nth-child(2) {
-  animation: slideshow 12s infinite 6s;
-}
-
-.imgwrapper:nth-child(3) {
-  animation: slideshow 12s infinite 6s;
-}
-
-.imgwrapper:nth-child(4) {
-  animation: slideshow 12s infinite 6s;
-} */
-
-
-
 .about {
   margin-left: 10%;
   font-size: 40px;
@@ -417,4 +298,126 @@ footer {
 .icons i:hover{
   background: #fff;
   color: #2980b9;
+}
+
+@media only screen and (max-width: 768px) {
+  header nav ul {
+    display: none;
+  }
+  
+  header nav .menu-toggle {
+    display: block;
+  }
+  
+  header nav .menu-toggle:after {
+    content: "\f0c9";
+    font-family: FontAwesome;
+    color: #fff;
+  }
+  
+  header nav .menu-toggle.active:after {
+    content: "\f00d";
+  }
+  
+  header nav .menu-toggle:hover:after {
+    color: #FFDA00;
+  }
+  
+  header nav .menu-toggle.active ~ ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    position: fixed;
+    top: 65px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+  }
+  
+  header nav .menu-toggle.active ~ ul li {
+    margin-right: 0;
+  }
+  
+  header nav .menu-toggle.active ~ ul li a {
+    color: #fff;
+    padding: 10px;
+  }
+  
+  header nav .menu-toggle.active ~ ul li a:hover {
+    background: #FFDA00;
+    color: black;
+  }
+}
+
+/* For screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  /* Reduce the margin-left of each section to 5% */
+  .about, .taste, .sight, .feeling, .vibe {
+    margin-left: 5%;
+    display: block;
+  }
+
+  /* Reduce the font-size of each section heading to 30px */
+  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2 {
+    font-size: 30px;
+  }
+
+  /* Change the width of the images in each section to 40% */
+  .tasteimg, .sightimg, .feelingimg, .vibeimg {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  /* Reduce the font-size of each section paragraph to 12px */
+  .about p, .taste p, .sight p, .feeling p, .vibe p {
+    font-size: 12px;
+  }
+
+  /* Reduce the font-size of the events section to 30px */
+  .events {
+    font-size: 30px;
+  }
+
+  /* Reduce the font-size of each event item to 15px */
+  .events ul li {
+    font-size: 15px;
+  }
+}
+
+/* For screens with a maximum width of 480px */
+@media (max-width: 480px) {
+  /* Reduce the margin-left of each section to 2% */
+  .about, .taste, .sight, .feeling, .vibe {
+    margin-left: 2%;
+    display: block;
+  }
+
+  /* Reduce the font-size of each section heading to 20px */
+  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2 {
+    font-size: 20px;
+  }
+
+  /* Change the width of the images in each section to 60% */
+  .tasteimg, .sightimg, .feelingimg, .vibeimg {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  /* Reduce the font-size of each section paragraph to 10px */
+  .about p, .taste p, .sight p, .feeling p, .vibe p {
+    font-size: 10px;
+  }
+
+  /* Reduce the font-size of the events section to 20px */
+  .events {
+    font-size: 20px;
+  }
+
+  /* Reduce the font-size of each event item to 12px */
+  .events ul li {
+    font-size: 12px;
+  }
 }
