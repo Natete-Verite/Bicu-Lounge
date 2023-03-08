@@ -101,7 +101,7 @@ span{
   border-radius: 20px;
 }
 .parallaxone {
-  background-image: url("bicu17.jpeg");
+  background-image: url("bicu6.JPG");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -202,7 +202,7 @@ span{
   
 }
 .parallaxfour {
-  background-image: url("bicu20.jpeg");
+  background-image: url("bicu22.jpg");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -215,6 +215,10 @@ span{
   color: #FFDA00;
   padding: 5%;
 }
+.comingevents{
+  font-size: 15px;
+  font-style: italic;
+}
 .events h2{
   font-family: Reina Neue Display Bold;
 
@@ -226,7 +230,7 @@ span{
 
 }
 .parallaxfive {
-  background-image: url("bicu21.jpeg");
+  background-image: url("bicu11.jpeg");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -234,14 +238,14 @@ span{
   background-size: cover;
 }
 .ig{
-  background-color: #FFDA00;
+  background-color: #003015;
 }
 
 .ig h2{
   font-family: Reina Neue Display Bold;
   text-align: center;
   font-size: 60px;
-  color: #003015;
+  color: #FFDA00;
   padding: 3%;
 }
 
