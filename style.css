@@ -409,6 +409,122 @@ footer {
     color: black;
   }
 }
+@media (max-width: 980px) {
+  /* Reduce the margin-left of each section to 2% */
+  .about, .taste, .sight, .feeling, .vibe {
+    margin-left: 1%;
+    display: block;
+    padding-left: 5% ;
+  }
+
+  /* Reduce the font-size of each section heading to 20px */
+  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2 {
+    font-size: 20px;
+  }
+
+  /* Change the width of the images in each section to 60% */
+  .tasteimg, .sightimg, .feelingimg, .vibeimg {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  /* Reduce the font-size of each section paragraph to 10px */
+  .about p, .taste p, .sight p, .feeling p, .vibe p {
+    font-size: 18px;
+    max-width: 100%;
+  }
+  .contact{
+    display: block;
+    margin-right: 10%;
+  }
+  .contact p{
+    font-size: 16px;
+    max-width: 100%;
+  }
+  .google-map {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+    margin-right: 5%;
+  }
+  .google-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* Reduce the font-size of the events section to 20px */
+  .events {
+    font-size: 20px;
+  }
+
+  /* Reduce the font-size of each event item to 12px */
+  .events ul li {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 880px) {
+  /* Reduce the margin-left of each section to 2% */
+  .about, .taste, .sight, .feeling, .vibe {
+    margin-left: 1%;
+    display: block;
+    padding-left: 5% ;
+  }
+
+  /* Reduce the font-size of each section heading to 20px */
+  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2 {
+    font-size: 20px;
+  }
+
+  /* Change the width of the images in each section to 60% */
+  .tasteimg, .sightimg, .feelingimg, .vibeimg {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  /* Reduce the font-size of each section paragraph to 10px */
+  .about p, .taste p, .sight p, .feeling p, .vibe p {
+    font-size: 18px;
+    max-width: 100%;
+  }
+  .contact{
+    display: block;
+    margin-right: 10%;
+  }
+  .contact p{
+    font-size: 16px;
+    max-width: 100%;
+  }
+  .google-map {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+    margin-right: 5%;
+  }
+  .google-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* Reduce the font-size of the events section to 20px */
+  .events {
+    font-size: 20px;
+  }
+
+  /* Reduce the font-size of each event item to 12px */
+  .events ul li {
+    font-size: 12px;
+  }
+}
+
 
 /* For screens with a maximum width of 768px */
 @media (max-width: 768px) {
@@ -435,6 +551,9 @@ footer {
   .about p, .taste p, .sight p, .feeling p, .vibe p {
     font-size: 12px;
     padding: 3%;
+  }
+  .contact{
+    display: block;
   }
   .contact p{
     font-size: 16px;
@@ -471,9 +590,238 @@ footer {
 
   }
 }
+@media (max-width: 680px) {
+  /* Reduce the margin-left of each section to 2% */
+  .about, .taste, .sight, .feeling, .vibe {
+    margin-left: 1%;
+    display: block;
+    padding-left: 5% ;
+  }
+
+  /* Reduce the font-size of each section heading to 20px */
+  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2 {
+    font-size: 20px;
+  }
+
+  /* Change the width of the images in each section to 60% */
+  .tasteimg, .sightimg, .feelingimg, .vibeimg {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  /* Reduce the font-size of each section paragraph to 10px */
+  .about p, .taste p, .sight p, .feeling p, .vibe p {
+    font-size: 18px;
+    max-width: 100%;
+  }
+  .contact{
+    display: block;
+  }  
+  .contact p{
+    font-size: 16px;
+    max-width: 100%;
+  }
+  .google-map {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+    margin-right: 5%;
+  }
+  .google-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* Reduce the font-size of the events section to 20px */
+  .events {
+    font-size: 20px;
+  }
+
+  /* Reduce the font-size of each event item to 12px */
+  .events ul li {
+    font-size: 12px;
+  }
+}
+@media (max-width: 580px) {
+  /* Reduce the margin-left of each section to 2% */
+  .about, .taste, .sight, .feeling, .vibe {
+    margin-left: 1%;
+    display: block;
+    padding-left: 5% ;
+  }
+
+  /* Reduce the font-size of each section heading to 20px */
+  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2 {
+    font-size: 20px;
+  }
+
+  /* Change the width of the images in each section to 60% */
+  .tasteimg, .sightimg, .feelingimg, .vibeimg {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  /* Reduce the font-size of each section paragraph to 10px */
+  .about p, .taste p, .sight p, .feeling p, .vibe p {
+    font-size: 18px;
+    max-width: 100%;
+  }
+  .contact{
+    display: block;
+  }
+  .contact p{
+    font-size: 16px;
+    max-width: 100%;
+  }
+  .google-map {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+    margin-right: 5%;
+  }
+  .google-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* Reduce the font-size of the events section to 20px */
+  .events {
+    font-size: 20px;
+  }
+
+  /* Reduce the font-size of each event item to 12px */
+  .events ul li {
+    font-size: 12px;
+  }
+}
+
 
 /* For screens with a maximum width of 480px */
 @media (max-width: 480px) {
+  /* Reduce the margin-left of each section to 2% */
+  .about, .taste, .sight, .feeling, .vibe {
+    margin-left: 1%;
+    display: block;
+    padding-left: 5% ;
+  }
+
+  /* Reduce the font-size of each section heading to 20px */
+  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2 {
+    font-size: 35px;
+  }
+
+  /* Change the width of the images in each section to 60% */
+  .tasteimg, .sightimg, .feelingimg, .vibeimg {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  /* Reduce the font-size of each section paragraph to 10px */
+  .about p, .taste p, .sight p, .feeling p, .vibe p {
+    font-size: 22px;
+    max-width: 100%;
+    padding-top: 2%;
+  }
+  .contact{
+    display: block;
+  }
+  .contact p{
+    font-size: 16px;
+    max-width: 100%;
+  }
+  .google-map {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+    margin-right: 5%;
+  }
+  .google-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* Reduce the font-size of the events section to 20px */
+  .events {
+    font-size: 20px;
+  }
+
+  /* Reduce the font-size of each event item to 12px */
+  .events ul li {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 380px) {
+  /* Reduce the margin-left of each section to 2% */
+  .about, .taste, .sight, .feeling, .vibe{
+    margin-left: 1%;
+    display: block;
+    padding-left: 5% ;
+  }
+  .contact{
+    margin-right: 5%;
+    display: block;
+  }
+
+  /* Reduce the font-size of each section heading to 20px */
+  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2, .contacth2 {
+    font-size: 20px;
+  }
+
+  /* Change the width of the images in each section to 60% */
+  .tasteimg, .sightimg, .feelingimg, .vibeimg {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  /* Reduce the font-size of each section paragraph to 10px */
+  .about p, .taste p, .sight p, .feeling p, .vibe p {
+    font-size: 16px;
+    max-width: 100%;
+    padding: 5%;
+  }
+  .contact p{
+    font-size: 16px;
+    max-width: 100%;
+  }
+  .google-map {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+    margin-right: 5%;
+  }
+  .google-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+ 
+  /* Reduce the font-size of the events section to 20px */
+  .events {
+    font-size: 20px;
+  }
+
+  /* Reduce the font-size of each event item to 12px */
+  .events ul li {
+    font-size: 12px;
+  }
+}
+@media (max-width: 280px) {
   /* Reduce the margin-left of each section to 2% */
   .about, .taste, .sight, .feeling, .vibe {
     margin-left: 1%;
@@ -528,61 +876,3 @@ footer {
   }
 }
 
-@media (max-width: 380px) {
-  /* Reduce the margin-left of each section to 2% */
-  .about, .taste, .sight, .feeling, .vibe{
-    margin-left: 1%;
-    display: block;
-    padding-left: 5% ;
-  }
-  .contact{
-    margin-right: 5%;
-  }
-
-  /* Reduce the font-size of each section heading to 20px */
-  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2, .contacth2 {
-    font-size: 20px;
-  }
-
-  /* Change the width of the images in each section to 60% */
-  .tasteimg, .sightimg, .feelingimg, .vibeimg {
-    width: 60%;
-    margin: 0 auto;
-  }
-
-  /* Reduce the font-size of each section paragraph to 10px */
-  .about p, .taste p, .sight p, .feeling p, .vibe p {
-    font-size: 16px;
-    max-width: 100%;
-    padding: 5%;
-  }
-  .contact p{
-    font-size: 16px;
-    max-width: 100%;
-  }
-  .google-map {
-    position: relative;
-    padding-bottom: 75%;
-    height: 0;
-    overflow: hidden;
-    margin-right: 5%;
-  }
-  .google-map iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-  }
- 
-  /* Reduce the font-size of the events section to 20px */
-  .events {
-    font-size: 20px;
-  }
-
-  /* Reduce the font-size of each event item to 12px */
-  .events ul li {
-    font-size: 12px;
-  }
-
-}
