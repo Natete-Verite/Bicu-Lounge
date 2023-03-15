@@ -465,6 +465,11 @@ footer {
   .events ul li {
     font-size: 12px;
   }
+  .parallax, .parallaxone, .parallaxtwo, .parallaxthree, .parallaxfour, .parallaxfive, .parallaxsix{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 @media (max-width: 880px) {
@@ -522,6 +527,11 @@ footer {
   /* Reduce the font-size of each event item to 12px */
   .events ul li {
     font-size: 12px;
+  }
+  .parallax, .parallaxone, .parallaxtwo, .parallaxthree, .parallaxfour, .parallaxfive, .parallaxsix{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 
@@ -587,7 +597,6 @@ footer {
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
-
   }
 }
 @media (max-width: 680px) {
@@ -645,6 +654,11 @@ footer {
   .events ul li {
     font-size: 12px;
   }
+  .parallax, .parallaxone, .parallaxtwo, .parallaxthree, .parallaxfour, .parallaxfive, .parallaxsix{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 @media (max-width: 580px) {
   /* Reduce the margin-left of each section to 2% */
@@ -700,6 +714,11 @@ footer {
   /* Reduce the font-size of each event item to 12px */
   .events ul li {
     font-size: 12px;
+  }
+  .parallax, .parallaxone, .parallaxtwo, .parallaxthree, .parallaxfour, .parallaxfive, .parallaxsix{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 
@@ -761,6 +780,11 @@ footer {
   .events ul li {
     font-size: 12px;
   }
+  .parallax, .parallaxone, .parallaxtwo, .parallaxthree, .parallaxfour, .parallaxfive, .parallaxsix{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 @media (max-width: 380px) {
@@ -820,6 +844,11 @@ footer {
   .events ul li {
     font-size: 12px;
   }
+  .parallax, .parallaxone, .parallaxtwo, .parallaxthree, .parallaxfour, .parallaxfive, .parallaxsix{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 @media (max-width: 280px) {
   /* Reduce the margin-left of each section to 2% */
@@ -873,6 +902,11 @@ footer {
   /* Reduce the font-size of each event item to 12px */
   .events ul li {
     font-size: 12px;
+  }
+  .parallax, .parallaxone, .parallaxtwo, .parallaxthree, .parallaxfour, .parallaxfive, .parallaxsix{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 
