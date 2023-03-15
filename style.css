@@ -209,6 +209,11 @@ span{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.menu{
+  /* color: #fff; */
+  display: flex;
+  justify-content: center;
+}
 .events {
   text-align: center;
   font-size: 40px;
@@ -453,8 +458,9 @@ footer {
 @media (max-width: 480px) {
   /* Reduce the margin-left of each section to 2% */
   .about, .taste, .sight, .feeling, .vibe {
-    margin-left: 2%;
+    /* margin-left: 2%; */
     display: block;
+    
   }
 
   /* Reduce the font-size of each section heading to 20px */
@@ -470,7 +476,8 @@ footer {
 
   /* Reduce the font-size of each section paragraph to 10px */
   .about p, .taste p, .sight p, .feeling p, .vibe p {
-    font-size: 10px;
+    font-size: 18px;
+    max-width: 100%;
   }
 
   /* Reduce the font-size of the events section to 20px */
