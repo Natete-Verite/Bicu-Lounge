@@ -546,15 +546,18 @@ footer {
     margin-left: 22%;
   }
 
-  .about p, .taste p, .sight p, .feeling p, .vibe p, .events p, .contact p {
+  .about p, .taste p, .sight p, .feeling p, .vibe p {
     font-size: 25px;
     padding: 3%;
   }
   .contact{
     display: block;
   }
+  .contact h2{
+    font-size: 50px;
+  }
   .contact p{
-    font-size: 16px;
+    font-size: 25px;
     max-width: 100%;
   }
   .google-map {
@@ -572,12 +575,15 @@ footer {
     height: 100% !important;
   }
 
-  .events {
-    font-size: 30px;
+  .events h2{
+    font-size: 50px;
   }
 
   .events ul li {
-    font-size: 15px;
+    font-size: 25px;
+  }
+  .ig h2{
+    font-size: 50px;
   }
   .parallax, .parallaxone, .parallaxtwo, .parallaxthree, .parallaxfour, .parallaxfive, .parallaxsix{
     width: 100%;
