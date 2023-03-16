@@ -366,7 +366,6 @@ footer {
   }
 }
 @media (max-width: 980px) {
-  /* Reduce the margin-left of each section to 2% */
   .about{
     display: block;
 
@@ -376,7 +375,6 @@ footer {
     padding-left: 5% ;
   }
 
-  /* Reduce the font-size of each section heading to 20px */
   .about h2{
     font-size: 50px;
     margin-left: 35%;
@@ -387,13 +385,11 @@ footer {
 
   }
 
-  /* Change the width of the images in each section to 60% */
   .tasteimg, .sightimg, .feelingimg, .vibeimg {
     width: 60%;
     margin-left: 18%;
   }
 
-  /* Reduce the font-size of each section paragraph to 10px */
   .about p{
     font-size: 25px;
     max-width: 100%;
@@ -450,26 +446,22 @@ footer {
 }
 
 @media (max-width: 880px) {
-  /* Reduce the margin-left of each section to 2% */
   .about, .taste, .sight, .feeling, .vibe {
     margin-left: 1%;
     display: block;
     padding-left: 5% ;
   }
 
-  /* Reduce the font-size of each section heading to 20px */
   .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2 {
     font-size: 45px;
     margin-left: 42%;
   }
 
-  /* Change the width of the images in each section to 60% */
   .tasteimg, .sightimg, .feelingimg, .vibeimg {
     width: 50%;
     margin-left: 25%;
   }
 
-  /* Reduce the font-size of each section paragraph to 10px */
   .about p{
     font-size: 23px;
     padding: 2%;
@@ -504,7 +496,6 @@ footer {
     height: 100% !important;
   }
 
-  /* Reduce the font-size of the events section to 20px */
   .events {
     font-size: 30px;
   }
@@ -512,7 +503,6 @@ footer {
     font-size: 45px;
   }
 
-  /* Reduce the font-size of each event item to 12px */
   .events ul{
     margin-top: 2%;
   }
@@ -540,29 +530,24 @@ footer {
 }
 
 
-/* For screens with a maximum width of 768px */
 @media (max-width: 780px) {
-  /* Reduce the margin-left of each section to 5% */
   .about, .taste, .sight, .feeling, .vibe {
-    margin-left: 5%;
+    margin-left: 1%;
     display: block;
     padding: 10%;
   }
 
-  /* Reduce the font-size of each section heading to 30px */
-  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2.events h2, .ig h2, .contact h2 {
-    font-size: 30px;
+  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2 {
+    font-size: 50px;
   }
 
-  /* Change the width of the images in each section to 40% */
   .tasteimg, .sightimg, .feelingimg, .vibeimg {
-    width: 40%;
-    margin: 0 auto;
+    width: 60%;
+    margin-left: 22%;
   }
 
-  /* Reduce the font-size of each section paragraph to 12px */
-  .about p, .taste p, .sight p, .feeling p, .vibe p .events p, .contact p {
-    font-size: 12px;
+  .about p, .taste p, .sight p, .feeling p, .vibe p, .events p, .contact p {
+    font-size: 25px;
     padding: 3%;
   }
   .contact{
@@ -587,12 +572,10 @@ footer {
     height: 100% !important;
   }
 
-  /* Reduce the font-size of the events section to 30px */
   .events {
     font-size: 30px;
   }
 
-  /* Reduce the font-size of each event item to 15px */
   .events ul li {
     font-size: 15px;
   }
@@ -603,26 +586,22 @@ footer {
   }
 }
 @media (max-width: 680px) {
-  /* Reduce the margin-left of each section to 2% */
   .about, .taste, .sight, .feeling, .vibe {
     margin-left: 1%;
     display: block;
     padding-left: 5% ;
   }
 
-  /* Reduce the font-size of each section heading to 20px */
-  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2.events h2, .ig h2, .contact h2 {
+  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2, .events h2, .ig h2, .contact h2 {
     font-size: 20px;
   }
 
-  /* Change the width of the images in each section to 60% */
   .tasteimg, .sightimg, .feelingimg, .vibeimg {
     width: 60%;
     margin: 0 auto;
   }
 
-  /* Reduce the font-size of each section paragraph to 10px */
-  .about p, .taste p, .sight p, .feeling p, .vibe p .events p, .contact p {
+  .about p, .taste p, .sight p, .feeling p, .vibe p, .events p, .contact p {
     font-size: 18px;
     max-width: 100%;
   }
@@ -648,12 +627,10 @@ footer {
     height: 100% !important;
   }
 
-  /* Reduce the font-size of the events section to 20px */
   .events {
     font-size: 20px;
   }
 
-  /* Reduce the font-size of each event item to 12px */
   .events ul li {
     font-size: 12px;
   }
@@ -664,25 +641,21 @@ footer {
   }
 }
 @media (max-width: 580px) {
-  /* Reduce the margin-left of each section to 2% */
   .about, .taste, .sight, .feeling, .vibe {
     margin-left: 1%;
     display: block;
     padding-left: 5% ;
   }
 
-  /* Reduce the font-size of each section heading to 20px */
   .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2 {
     font-size: 35px;
   }
 
-  /* Change the width of the images in each section to 60% */
   .tasteimg, .sightimg, .feelingimg, .vibeimg {
     width: 60%;
     margin-left: 23%;
   }
 
-  /* Reduce the font-size of each section paragraph to 10px */
   .about p, .taste p, .sight p, .feeling p, .vibe p {
     font-size: 18px;
     max-width: 100%;
@@ -712,7 +685,6 @@ footer {
     height: 100% !important;
   }
 
-  /* Reduce the font-size of the events section to 20px */
   .events {
     font-size: 20px;
   }
@@ -720,7 +692,6 @@ footer {
     font-size: 35px;
   }
 
-  /* Reduce the font-size of each event item to 12px */
   .events ul li {
     font-size: 18px;
   }
@@ -738,40 +709,38 @@ footer {
 }
 
 
-/* For screens with a maximum width of 480px */
 @media (max-width: 480px) {
-  /* Reduce the margin-left of each section to 2% */
   .about, .taste, .sight, .feeling, .vibe {
     margin-left: 1%;
     display: block;
     padding-left: 5% ;
   }
 
-  /* Reduce the font-size of each section heading to 20px */
-  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2, .events h2, .ig h2, .contact h2 {
+  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2{
     font-size: 35px;
   }
 
-  /* Change the width of the images in each section to 60% */
   .tasteimg, .sightimg, .feelingimg, .vibeimg {
     width: 60%;
-    margin: 0 auto;
+    margin-left: 20%;
   }
 
-  /* Reduce the font-size of each section paragraph to 10px */
-  .about p, .taste p, .sight p, .feeling p, .vibe p, .events p, .contact p {
-    font-size: 22px;
+  .about p, .taste p, .sight p, .feeling p, .vibe p{
+    font-size: 20px;
     max-width: 100%;
     padding-top: 2%;
   }
   .comingevents{
-    font-size: 10px;
+    font-size: 20px;
   }
   .contact{
     display: block;
   }
+  .contact h2{
+    font-size: 35px;
+  }
   .contact p{
-    font-size: 16px;
+    font-size: 20px;
     max-width: 100%;
   }
   .google-map {
@@ -789,14 +758,8 @@ footer {
     height: 100% !important;
   }
 
-  /* Reduce the font-size of the events section to 20px */
-  .events {
-    font-size: 20px;
-  }
-
-  /* Reduce the font-size of each event item to 12px */
   .events ul li {
-    font-size: 12px;
+    font-size: 20px;
   }
   .parallax, .parallaxone, .parallaxtwo, .parallaxthree, .parallaxfour, .parallaxfive, .parallaxsix{
     width: 100%;
@@ -806,7 +769,6 @@ footer {
 }
 
 @media (max-width: 380px) {
-  /* Reduce the margin-left of each section to 2% */
   .about, .taste, .sight, .feeling, .vibe{
     margin-left: 1%;
     display: block;
@@ -818,21 +780,18 @@ footer {
     display: block;
   }
 
-  /* Reduce the font-size of each section heading to 20px */
   .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2, .contacth2 {
     font-size: 35px;
     margin-left: 28%;
 
   }
 
-  /* Change the width of the images in each section to 60% */
   .tasteimg, .sightimg, .feelingimg, .vibeimg {
     width: 60%;
     display: absolute;
     margin-left: 20%;
   }
 
-  /* Reduce the font-size of each section paragraph to 10px */
   .about p, .taste p, .sight p, .feeling p, .vibe p, .events p, .contact p  {
     font-size: 15px;
     max-width: 100%;
@@ -857,12 +816,10 @@ footer {
     height: 100% !important;
   }
  
-  /* Reduce the font-size of the events section to 20px */
   .events {
     font-size: 20px;
   }
 
-  /* Reduce the font-size of each event item to 12px */
   .events ul li {
     font-size: 12px;
   }
@@ -873,32 +830,30 @@ footer {
   }
 }
 @media (max-width: 280px) {
-  /* Reduce the margin-left of each section to 2% */
   .about, .taste, .sight, .feeling, .vibe {
     margin-left: 1%;
     display: block;
     padding-left: 5% ;
   }
 
-  /* Reduce the font-size of each section heading to 20px */
-  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2.events h2, .ig h2, .contact h2 {
-    font-size: 30px;
+  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2 {
+    font-size: 24px;
   }
 
-  /* Change the width of the images in each section to 60% */
   .tasteimg, .sightimg, .feelingimg, .vibeimg {
     width: 60%;
     margin-left: 20%;
   }
 
-  /* Reduce the font-size of each section paragraph to 10px */
-  .about p, .taste p, .sight p, .feeling p, .vibe p .events p, .contact p {
-    font-size: 18px;
+  .about p, .taste p, .sight p, .feeling p, .vibe p {
+    font-size: 12px;
     max-width: 100%;
   }
-  
+  .contact h2{
+    font-size: 24px;
+  }
   .contact p{
-    font-size: 16px;
+    font-size: 12px;
     max-width: 100%;
   }
   .google-map {
@@ -916,14 +871,19 @@ footer {
     height: 100% !important;
   }
 
-  /* Reduce the font-size of the events section to 20px */
-  .events {
-    font-size: 20px;
+  .events h2 {
+    font-size: 24px;
   }
 
-  /* Reduce the font-size of each event item to 12px */
   .events ul li {
     font-size: 12px;
+    padding: 1%;
+  }
+  .comingevents{
+    font-size: 12px;
+  }
+  .ig h2{
+    font-size: 24px;
   }
   .parallax, .parallaxone, .parallaxtwo, .parallaxthree, .parallaxfour, .parallaxfive, .parallaxsix{
     width: 100%;
@@ -931,4 +891,3 @@ footer {
     background-position: center;
   }
 }
-
