@@ -818,7 +818,12 @@ footer {
 }
 
 @media (max-width: 380px) {
-  .about, .taste, .sight, .feeling, .vibe{
+  .about{
+    margin-left: 1%;
+    display: block;
+    padding-left: 5% ;
+  }
+  .taste, .sight, .feeling, .vibe{
     margin-left: 1%;
     display: block;
     padding-left: 5% ;
@@ -831,7 +836,7 @@ footer {
 
   .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2, .contacth2 {
     font-size: 35px;
-    margin-left: 29%;
+    margin-left: 33%;
 
   }
 
