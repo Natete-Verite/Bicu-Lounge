@@ -313,6 +313,39 @@ footer {
   background: #fff;
   color: #2980b9;
 }
+.title{
+  color:#FFDA00;
+  font-family: Reina Neue Display Bold;
+  font-size: 30px;
+  padding-bottom: 1%;
+}
+.menus{
+  background-image: url(bicu13.jpeg);
+  min-height:645px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutmenu{
+  background-color: #003015;
+  color: #fff;
+  padding: 5%;
+  border-radius: 40px;
+  width: 50%;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+.menulinks{
+  border-radius: 30px;
+  padding: 10px;
+  width: 8%;
+  margin-left: 70%;
+  margin-top: 1%;
+  text-align: center;
+  background-color: #FFDA00;
+}
 
 @media only screen and (max-width: 768px) {
   header nav ul {
@@ -394,6 +427,7 @@ footer {
     font-size: 25px;
     max-width: 100%;
     padding: 3%;
+    margin-left: 3%;
     
   } 
   .taste p, .sight p, .feeling p, .vibe p {
@@ -446,13 +480,22 @@ footer {
 }
 
 @media (max-width: 880px) {
-  .about, .taste, .sight, .feeling, .vibe {
+  .about{
+    display: block;
+    margin: auto;
+  }
+  .taste, .sight, .feeling, .vibe {
     margin-left: 1%;
     display: block;
     padding-left: 5% ;
   }
 
-  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2 {
+  .about h2{
+    font-size: 45px;
+    margin-left: 40%;
+
+  }
+  .taste h2, .sight h2, .feeling h2, .vibe h2 {
     font-size: 45px;
     margin-left: 42%;
   }
@@ -462,11 +505,11 @@ footer {
     margin-left: 25%;
   }
 
-  .about p{
+  .aboutus{
     font-size: 23px;
-    padding: 2%;
-    margin-right: 9%;
+    padding: 3%;
     max-width: 100%;
+    margin-left: 0;
   }
   .taste p, .sight p, .feeling p, .vibe p, .events p, .contact p  {
     font-size: 23px;
@@ -788,7 +831,7 @@ footer {
 
   .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2, .contacth2 {
     font-size: 35px;
-    margin-left: 28%;
+    margin-left: 29%;
 
   }
 
