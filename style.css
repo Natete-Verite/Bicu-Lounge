@@ -220,6 +220,15 @@ span{
   color: #FFDA00;
   padding: 5%;
 }
+.css1{
+  background-color:yellow;
+  font-size:30px;
+  font-family: Reina Neue Display;
+  font-style:italic;
+  font-weight:bold;
+  color:#003015;
+  text-shadow: 2px 2px 8px #FF0000;
+}
 .comingevents{
   font-size: 15px;
   font-style: italic;
@@ -767,6 +776,7 @@ footer {
 
   .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2{
     font-size: 35px;
+    margin-left: 33%;
   }
 
   .tasteimg, .sightimg, .feelingimg, .vibeimg {
@@ -778,6 +788,7 @@ footer {
     font-size: 20px;
     max-width: 100%;
     padding-top: 2%;
+    align-items: center;
   }
   .comingevents{
     font-size: 20px;
