@@ -779,16 +779,20 @@ footer {
     margin-left: 33%;
   }
 
-  .tasteimg, .sightimg, .feelingimg, .vibeimg {
+  .tasteimg, .sightimg, .feelingimg {
     width: 60%;
-    margin-left: 20%;
+    margin-left: 23%;
+  }
+  .vibeimg{
+    width: 60%;
+    margin-left: 23%;
   }
 
   .about p, .taste p, .sight p, .feeling p, .vibe p{
     font-size: 20px;
     max-width: 100%;
     padding-top: 2%;
-    align-items: center;
+    margin-left: 6%;
   }
   .comingevents{
     font-size: 20px;
