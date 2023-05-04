@@ -774,9 +774,13 @@ footer {
     padding-left: 5% ;
   }
 
-  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2{
+  .about h2, .taste h2, .sight h2, .vibe h2{
     font-size: 35px;
-    margin-left: 35%;
+    margin-left: 33%;
+  }
+  .feeling h2{
+    font-size: 35px;
+    margin-left: 30%;
   }
 
   .tasteimg, .sightimg, .feelingimg, .vibeimg {
