@@ -275,7 +275,6 @@ span {
 .google-map {
   margin-left: 10%;
   margin-top: 3%;
-  text-align: center;
 }
 
 footer {
@@ -334,6 +333,81 @@ footer {
   background-color: #ffda00;
 }
 
+@media (max-width: 880px) {
+  .about,
+  .taste,
+  .sight,
+  .feeling,
+  .vibe,
+  .contact,
+  .events,
+  .ig {
+    display: block;
+    margin: 0;
+  }
+  .about h2,
+  .taste h2,
+  .sight h2,
+  .vibe h2,
+  .contact h2,
+  .feeling h2,
+  .events h2,
+  .ig h2 {
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    margin-left: 0%;
+    margin-top: 3%;
+  }
+
+  .tasteimg, .sightimg, .feelingimg, .vibeimg {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .about p,
+  .sight p,
+  .feeling p,
+  .vibe p,
+  .taste p,
+  .contact p {
+    font-size: 25px;
+    max-width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    margin: 10%;
+  }
+
+  .contact{
+    display: block;
+  }
+
+  .google-map {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+    margin-left: 0;
+    margin-right:0;
+  }
+  .google-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .events ul li {
+    font-size: 25px;
+  }
+
+  .parallax, .parallaxone, .parallaxtwo, .parallaxthree, .parallaxfour, .parallaxfive, .parallaxsix{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
 @media (max-width: 768px) {
   .about,
   .taste,
@@ -388,7 +462,8 @@ footer {
     padding-bottom: 75%;
     height: 0;
     overflow: hidden;
-    margin-right: 5%;
+    margin-left: 0;
+    margin-right:0;
   }
   .google-map iframe {
     position: absolute;
@@ -476,7 +551,8 @@ footer {
     padding-bottom: 75%;
     height: 0;
     overflow: hidden;
-    margin-right: 5%;
+    margin-left: 0;
+    margin-right:0;
   }
   .google-map iframe {
     position: absolute;
@@ -564,7 +640,8 @@ footer {
     padding-bottom: 75%;
     height: 0;
     overflow: hidden;
-    margin-right: 5%;
+    margin-right:0;
+    margin-left:0;
   }
   .google-map iframe {
     position: absolute;
@@ -645,7 +722,8 @@ footer {
     padding-bottom: 75%;
     height: 0;
     overflow: hidden;
-    margin-right: 5%;
+    margin-right:0;
+    margin-left:0;
   }
   .google-map iframe {
     position: absolute;
