@@ -3,7 +3,8 @@
   padding: 0;
 }
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: #000;
   margin: 0;
 }
@@ -43,7 +44,7 @@ header nav a {
   text-decoration: none;
 }
 nav a:hover {
-  background: #FFDA00;
+  background: #ffda00;
   color: black;
 }
 
@@ -52,14 +53,23 @@ nav a:hover {
   display: flex;
   padding: 5% 0;
 }
-span{
+span {
   font-weight: bolder;
 }
-.about h2 {
+.about h2,
+.taste h2,
+.feeling h2{
   margin-left: 10%;
+  color: #ffda00;
+  font-family: Reina Neue Display Bold;
+}
+
+.sight h2, .vibe h2 {
+  margin-left: 20%;
   color: #FFDA00;
   font-family: Reina Neue Display Bold;
 }
+
 .about p {
   font-size: 15px;
   color: #fff;
@@ -76,24 +86,26 @@ span{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.taste{
-  /* margin-left: 5%; */
+.taste {
   font-size: 40px;
   display: flex;
   padding: 5%;
-
 }
-.tasteimg{
-  width: 25%;
+.tasteimg,
+.sightimg,
+.feelingimg{
+  width: 150px;
   margin-right: 10%;
   border-radius: 15px;
 }
-.taste h2 {
-  margin-left: 10%;
-  color: #FFDA00;
-  font-family: Reina Neue Display Bold;
 
+.vibeimg {
+  height: 200px;
+  margin-right: 10%;
+  border-radius: 15px;
+  margin-top: 3%;
 }
+
 .taste p {
   margin-left: 10%;
   font-size: 15px;
@@ -110,24 +122,10 @@ span{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.sight{
+.sight {
   font-size: 40px;
   display: flex;
   padding: 5%;
-
-}
-.sightimg{
-  width: 25%;
-  margin-left: 10%;
-  border-radius: 15px;
-
-}
-.sight h2 {
-  margin-left: 20%;
-
-  color: #FFDA00;
-  font-family: Reina Neue Display Bold;
-
 }
 .sight p {
   margin-left: 20%;
@@ -146,24 +144,11 @@ span{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.feeling{
+.feeling {
   /* margin-left: 5%; */
   font-size: 40px;
   display: flex;
   padding: 5%;
-
-}
-.feelingimg{
-  width: 25%;
-  margin-right: 10%;
-  border-radius: 15px;
-
-}
-.feeling h2 {
-  margin-left: 10%;
-  color: #FFDA00;
-  font-family: Reina Neue Display Bold;
-
 }
 .feeling p {
   margin-left: 10%;
@@ -183,26 +168,13 @@ span{
   background-size: cover;
 }
 
-.vibe{
+.vibe {
   /* margin-left: 10%; */
   font-size: 40px;
   display: flex;
   padding: 5%;
-
 }
-.vibeimg{
-  width: 25%;
-  margin-left: 10%;
-  border-radius: 15px;
 
-}
-.vibe h2 {
-  margin-left: 20%;
-
-  color: #FFDA00;
-  font-family: Reina Neue Display Bold;
-
-}
 .vibe p {
   margin-left: 20%;
 
@@ -211,7 +183,6 @@ span{
   border: none;
   max-width: 70%;
   border-radius: 20px;
-  
 }
 .parallaxfour {
   background-image: url("bicu22.jpg");
@@ -221,7 +192,7 @@ span{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.menu{
+.menu {
   /* color: #fff; */
   display: flex;
   justify-content: center;
@@ -229,31 +200,29 @@ span{
 .events {
   text-align: center;
   font-size: 40px;
-  color: #FFDA00;
+  color: #ffda00;
   padding: 5%;
 }
-.css1{
-  background-color:yellow;
-  font-size:30px;
+.css1 {
+  background-color: yellow;
+  font-size: 30px;
   font-family: Reina Neue Display;
-  font-style:italic;
-  font-weight:bold;
-  color:#003015;
-  text-shadow: 2px 2px 8px #FF0000;
+  font-style: italic;
+  font-weight: bold;
+  color: #003015;
+  text-shadow: 2px 2px 8px #ff0000;
 }
-.comingevents{
+.comingevents {
   font-size: 15px;
   font-style: italic;
 }
-.events h2{
+.events h2 {
   font-family: Reina Neue Display Bold;
-
 }
 .events ul li {
   list-style: none;
   font-size: 20px;
   color: #fff;
-
 }
 .parallaxfive {
   background-image: url("bicu11.jpeg");
@@ -263,15 +232,15 @@ span{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.ig{
+.ig {
   background-color: #003015;
 }
 
-.ig h2{
+.ig h2 {
   font-family: Reina Neue Display Bold;
   text-align: center;
   font-size: 60px;
-  color: #FFDA00;
+  color: #ffda00;
   padding: 3%;
 }
 
@@ -288,25 +257,22 @@ span{
   margin-left: 5%;
   margin-top: 5%;
   font-size: 40px;
-  color: #FFDA00;
+  color: #ffda00;
   display: flex;
 }
-.contact h2{
+.contact h2 {
   font-family: Reina Neue Display Bold;
-
 }
-.contact p{
+.contact p {
   color: #fff;
   font-size: 20px;
-
 }
-.info{
+.info {
   margin-left: 5%;
   margin-top: 10%;
-
 }
 
-.google-map{
+.google-map {
   margin-left: 10%;
   margin-top: 3%;
   text-align: center;
@@ -319,7 +285,7 @@ footer {
   background-color: #333;
   color: #fff;
 }
-.icons i{
+.icons i {
   color: #fff;
   font-size: 20px;
   height: 30px;
@@ -330,25 +296,25 @@ footer {
   margin: 5px 5px;
   transition: all 0.3s ease;
 }
-.icons i:hover{
+.icons i:hover {
   background: #fff;
   color: #2980b9;
 }
-.title{
-  color:#FFDA00;
+.title {
+  color: #ffda00;
   font-family: Reina Neue Display Bold;
   font-size: 30px;
   padding-bottom: 1%;
 }
-.menus{
+.menus {
   background-image: url(bicu13.jpeg);
-  min-height:645px;
+  min-height: 645px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.aboutmenu{
+.aboutmenu {
   background-color: #003015;
   color: #fff;
   padding: 5%;
@@ -358,290 +324,65 @@ footer {
   margin-top: 10%;
 }
 
-.menulinks{
+.menulinks {
   border-radius: 30px;
   padding: 10px;
   width: 8%;
   margin-left: 70%;
   margin-top: 1%;
   text-align: center;
-  background-color: #FFDA00;
+  background-color: #ffda00;
 }
 
-@media only screen and (max-width: 768px) {
-  header nav ul {
-    display: none;
-  }
-  
-  header nav .menu-toggle {
+@media (max-width: 768px) {
+  .about,
+  .taste,
+  .sight,
+  .feeling,
+  .vibe,
+  .contact,
+  .events,
+  .ig {
     display: block;
+    margin: 0;
   }
-  
-  header nav .menu-toggle:after {
-    content: "\f0c9";
-    font-family: FontAwesome;
-    color: #fff;
-  }
-  
-  header nav .menu-toggle.active:after {
-    content: "\f00d";
-  }
-  
-  header nav .menu-toggle:hover:after {
-    color: #FFDA00;
-  }
-  
-  header nav .menu-toggle.active ~ ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #333;
-    position: fixed;
-    top: 65px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 999;
-  }
-  
-  header nav .menu-toggle.active ~ ul li {
-    margin-right: 0;
-  }
-  
-  header nav .menu-toggle.active ~ ul li a {
-    color: #fff;
-    padding: 10px;
-  }
-  
-  header nav .menu-toggle.active ~ ul li a:hover {
-    background: #FFDA00;
-    color: black;
-  }
-}
-@media (max-width: 980px) {
-  .about{
-    display: block;
-
-  }
-  .taste, .sight, .feeling, .vibe {
-    display: block;
-    padding-left: 5% ;
-  }
-
-  .about h2{
+  .about h2,
+  .taste h2,
+  .sight h2,
+  .vibe h2,
+  .contact h2,
+  .feeling h2,
+  .events h2,
+  .ig h2 {
     font-size: 50px;
-    margin-left: 35%;
-  }
-  .taste h2, .sight h2, .feeling h2, .vibe h2 {
-    font-size: 50px;
-    margin-left: 35%;
-
-  }
-
-  .tasteimg, .sightimg, .feelingimg, .vibeimg {
-    width: 60%;
-    margin-left: 18%;
-  }
-
-  .about p{
-    font-size: 25px;
-    max-width: 100%;
-    padding: 3%;
-    margin-left: 3%;
-    
-  } 
-  .taste p, .sight p, .feeling p, .vibe p {
-    font-size: 25px;
-    max-width: 100%;
-    padding: 3%;
-  }
-  .contact{
-    display: block;
-    margin-right: 10%;
-  }
-  .contact h2{
-    font-size: 50px;
-  }
-  .events h2{
-    font-size: 50px;
-  }
-  .events ul li{
-    font-size:25px;
-  }
-  .comingevents{
-    font-size: 25px;
-  }
-  .ig h2{
-    font-size: 50px;
-  }
-  .contact p{
-    font-size: 25px;
-    max-width: 100%;
-  }
-  .google-map {
-    position: relative;
-    padding-bottom: 75%;
-    height: 0;
-    overflow: hidden;
-    margin-right: 5%;
-  }
-  .google-map iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-  }
-  .parallax, .parallaxone, .parallaxtwo, .parallaxthree, .parallaxfour, .parallaxfive, .parallaxsix{
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-}
-
-@media (max-width: 880px) {
-  .about{
-    display: block;
+    text-align: center;
     margin: auto;
-  }
-  .taste, .sight, .feeling, .vibe {
-    margin-left: 1%;
-    display: block;
-    padding-left: 5% ;
-  }
-
-  .about h2{
-    font-size: 45px;
-    margin-left: 43%;
-
-  }
-  .taste h2, .sight h2, .vibe h2 {
-    font-size: 45px;
-    margin-left: 39%;
-  }
-  .feeling h2{
-    font-size: 45px;
-    margin-left: 37%;
-  }
-
-  .tasteimg, .sightimg, .feelingimg, .vibeimg {
-    width: 50%;
-    margin-left: 24%;
-  }
-
-  .aboutus{
-    font-size: 23px;
-    padding: 3%;
-    max-width: 100%;
-    margin-left: 0;
-  }
-  .taste p, .sight p, .feeling p, .vibe p, .events p, .contact p  {
-    font-size: 23px;
-    padding: 3%;
-    max-width: 100%;
-  }
-  .contact{
-    display: block;
-    margin-right: 10%;
-  }
-  .contact p{
-    font-size: 16px;
-    max-width: 100%;
-  }
-  .google-map {
-    position: relative;
-    padding-bottom: 75%;
-    height: 0;
-    overflow: hidden;
-    margin-right: 5%;
-  }
-  .google-map iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-  }
-
-  .events {
-    font-size: 30px;
-  }
-  .events h2{
-    font-size: 45px;
-  }
-
-  .events ul{
-    margin-top: 2%;
-  }
-  .events ul li {
-    font-size: 23px;
-  }
-  .comingevents{
-    font-size: 23px;
-  }
-  .ig h2{
-    font-size: 45px;
-  }
-  .contact h2{
-    font-size: 45px;
-  }
-  .contact p{
-    font-size: 23px;
-  }
-  
-  .parallax, .parallaxone, .parallaxtwo, .parallaxthree, .parallaxfour, .parallaxfive, .parallaxsix{
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-}
-
-
-@media (max-width: 780px) {
-  .about, .taste, .sight, .feeling, .vibe {
-    margin-left: 1%;
-    display: block;
-    padding: 10%;
-  }
-
-  .about h2{
-    font-size: 50px;
-    margin-left: 38%;
-  }
-
-  .taste h2, .sight h2 {
-    font-size: 50px;
-    margin-left: 36%;
-  }
-  .feeling h2{
-    font-size: 50px;
-    margin-left: 32%;
-  }
-  .vibe h2{
-    font-size: 50px;
-    margin-left: 37%;
+    margin-left: 0%;
+    margin-top: 3%;
   }
 
   .tasteimg, .sightimg, .feelingimg, .vibeimg {
     width: 60%;
     margin-left: 20%;
   }
-
-  .about p, .taste p, .sight p, .feeling p, .vibe p {
+  .about p,
+  .sight p,
+  .feeling p,
+  .vibe p,
+  .taste p,
+  .contact p {
     font-size: 25px;
-    padding: 3%;
+    max-width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    margin: 10%;
   }
+
   .contact{
     display: block;
   }
-  .contact h2{
-    font-size: 50px;
-  }
-  .contact p{
-    font-size: 25px;
-    max-width: 100%;
-  }
+
   .google-map {
     position: relative;
     padding-bottom: 75%;
@@ -656,201 +397,79 @@ footer {
     width: 100% !important;
     height: 100% !important;
   }
-
-  .events h2{
-    font-size: 50px;
-  }
-
   .events ul li {
     font-size: 25px;
   }
-  .ig h2{
-    font-size: 50px;
-  }
+
   .parallax, .parallaxone, .parallaxtwo, .parallaxthree, .parallaxfour, .parallaxfive, .parallaxsix{
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
 }
-@media (max-width: 680px) {
-  .about, .taste, .sight, .feeling, .vibe {
-    margin-left: 1%;
-    display: block;
-    padding-left: 5% ;
-  }
-
-  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2, .events h2, .ig h2, .contact h2 {
-    font-size: 20px;
-  }
-
-  .tasteimg, .sightimg, .feelingimg, .vibeimg {
-    width: 60%;
-    margin: 0 auto;
-  }
-
-  .about p, .taste p, .sight p, .feeling p, .vibe p, .events p, .contact p {
-    font-size: 18px;
-    max-width: 100%;
-  }
-  .contact{
-    display: block;
-  }  
-  .contact p{
-    font-size: 16px;
-    max-width: 100%;
-  }
-  .google-map {
-    position: relative;
-    padding-bottom: 75%;
-    height: 0;
-    overflow: hidden;
-    margin-right: 5%;
-  }
-  .google-map iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-  }
-
-  .events {
-    font-size: 20px;
-  }
-
-  .events ul li {
-    font-size: 12px;
-  }
-  .parallax, .parallaxone, .parallaxtwo, .parallaxthree, .parallaxfour, .parallaxfive, .parallaxsix{
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-}
-@media (max-width: 580px) {
-  .about, .taste, .sight, .feeling, .vibe {
-    margin-left: 1%;
-    display: block;
-    padding-left: 5% ;
-  }
-
-  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2 {
-    font-size: 35px;
-  }
-
-  .tasteimg, .sightimg, .feelingimg, .vibeimg {
-    width: 60%;
-    margin-left: 23%;
-  }
-
-  .about p, .taste p, .sight p, .feeling p, .vibe p {
-    font-size: 18px;
-    max-width: 100%;
-  }
-  .contact{
-    display: block;
-  }
-  .contact h2{
-    font-size: 35px;
-  }
-  .contact p{
-    font-size: 18px;
-    max-width: 100%;
-  }
-  .google-map {
-    position: relative;
-    padding-bottom: 75%;
-    height: 0;
-    overflow: hidden;
-    margin-right: 5%;
-  }
-  .google-map iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-  }
-
-  .events {
-    font-size: 20px;
-  }
-  .events h2{
-    font-size: 35px;
-  }
-
-  .events ul li {
-    font-size: 18px;
-  }
-  .comingevents{
-    font-size: 18px;
-  }
-  .ig h2{
-    font-size: 35px;
-  }
-  .parallax, .parallaxone, .parallaxtwo, .parallaxthree, .parallaxfour, .parallaxfive, .parallaxsix{
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-}
-
 
 @media (max-width: 480px) {
-  .about, .taste, .sight, .feeling, .vibe {
-    /* margin-left: 1%; */
+  .about,
+  .taste,
+  .sight,
+  .feeling,
+  .vibe,
+  .contact,
+  .events,
+  .ig {
     display: block;
-    padding-left: 5% ;
+    margin: 0;
   }
-  .about h2{
-    font-size: 35px;
-    /* margin-left: 38%; */
-    justify-content: center;
-  }
-
-  .taste h2{
-    font-size: 35px;
-    justify-content: center;
-  }
-  .sight h2, .vibe h2{
-    font-size: 35px;
-    margin-left: 37%;
-  }
-  .feeling h2{
+  .about h2,
+  .taste h2,
+  .sight h2,
+  .contact h2,
+  .feeling h2,
+  .events h2,
+  .ig h2 {
     font-size: 35px;
     text-align: center;
+    margin: auto;
+    margin-left: 0%;
+    margin-top: 3%;
   }
 
-  .tasteimg, .sightimg, .feelingimg, .vibeimg {
+  .vibe h2
+  {
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+    margin-left: 0%;
+    margin-top: 5%;
+  }
+
+  .tasteimg,
+  .sightimg,
+  .feelingimg,
+  .vibeimg {
     width: 60%;
-    margin-left: 22%;
+    display: block; /* Make the image a block-level element */
+    margin-left: auto; /* Set the left margin to auto */
+    margin-right: auto; /* Set the right margin to auto */
   }
-  
-  .about p, .sight p, .feeling p, .vibe p{
+
+  .about p,
+  .sight p,
+  .feeling p,
+  .vibe p,
+  .taste p,
+  .contact p {
     font-size: 20px;
     max-width: 100%;
-    padding-top: 2%;
-    margin-left: 10%;
-  }
-  .taste p{
-    font-size: 20px;
-    max-width: 100%;
-    padding-top: 2%;
     text-align: center;
+    border: none;
+    border-radius: 20px;
+    margin: 10%;
   }
-  .comingevents{
-    font-size: 20px;
-  }
-  .contact{
-    display: block;
-  }
-  .contact h2{
-    font-size: 35px;
-  }
-  .contact p{
-    font-size: 20px;
-    max-width: 100%;
+
+  .events ul {
+    margin-top: 10%;
+    margin-bottom: 5%;
   }
   .google-map {
     position: relative;
@@ -870,7 +489,13 @@ footer {
   .events ul li {
     font-size: 20px;
   }
-  .parallax, .parallaxone, .parallaxtwo, .parallaxthree, .parallaxfour, .parallaxfive, .parallaxsix{
+  .parallax,
+  .parallaxone,
+  .parallaxtwo,
+  .parallaxthree,
+  .parallaxfour,
+  .parallaxfive,
+  .parallaxsix {
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -878,51 +503,62 @@ footer {
 }
 
 @media (max-width: 380px) {
-  .about{
-    margin-left: 1%;
-    display: block;
-    padding-left: 5% ;
-  }
-  .taste, .sight, .feeling, .vibe{
-    margin-left: 1%;
-    display: block;
-    padding-left: 5% ;
-    
-  }
-  .contact{
-    margin-right: 5%;
+  .about,
+  .taste,
+  .sight,
+  .feeling,
+  .vibe,
+  .contact,
+  .ig {
     display: block;
   }
 
-  .about h2{
-    font-size: 35px;
-    margin-left: 38%;
-  }
-  .taste h2, .sight h2, .vibe h2, .contacth2 {
-    font-size: 35px;
-    margin-left: 30%;
-
-  }
-  .feeling h2{
+  .about h2,
+  .taste h2,
+  .sight h2,
+  .vibe h2,
+  .contact h2,
+  .feeling h2,
+  .ig h2 {
     font-size: 35px;
     text-align: center;
+    margin: auto;
+    margin-left: 0%;
+    margin-top: 0%;
   }
-
-  .tasteimg, .sightimg, .feelingimg, .vibeimg {
+  .tasteimg,
+  .sightimg,
+  .feelingimg {
     width: 60%;
-    display: absolute;
-    margin-left: 22%;
+    display: block; /* Make the image a block-level element */
+    margin-left: auto; /* Set the left margin to auto */
+    margin-right: auto; /* Set the right margin to auto */
   }
 
-  .about p, .taste p, .sight p, .feeling p, .vibe p, .events p, .contact p  {
+   .vibeimg {
+    width: 60%;
+    display: block; /* Make the image a block-level element */
+    margin-left: auto; /* Set the left margin to auto */
+    margin-right: auto; /* Set the right margin to auto */
+    margin-bottom:5%;
+  }
+
+
+  .about p,
+  .taste p,
+  .sight p,
+  .feeling p,
+  .vibe p,
+  .events p,
+  .contact p {
     font-size: 15px;
     max-width: 100%;
-    padding: 5%;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    margin: 10%;
   }
-  .contact p{
-    font-size: 16px;
-    max-width: 100%;
-  }
+
   .google-map {
     position: relative;
     padding-bottom: 75%;
@@ -937,7 +573,7 @@ footer {
     width: 100% !important;
     height: 100% !important;
   }
- 
+
   .events {
     font-size: 20px;
   }
@@ -945,39 +581,65 @@ footer {
   .events ul li {
     font-size: 12px;
   }
-  .parallax, .parallaxone, .parallaxtwo, .parallaxthree, .parallaxfour, .parallaxfive, .parallaxsix{
+  .parallax,
+  .parallaxone,
+  .parallaxtwo,
+  .parallaxthree,
+  .parallaxfour,
+  .parallaxfive,
+  .parallaxsix {
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
   }
 }
 @media (max-width: 280px) {
-  .about, .taste, .sight, .feeling, .vibe {
-    margin-left: 1%;
+  .about,
+  .taste,
+  .sight,
+  .feeling,
+  .vibe {
+    margin: 0;
     display: block;
-    padding-left: 5% ;
+    padding: 5% 0;
   }
 
-  .about h2, .taste h2, .sight h2, .feeling h2, .vibe h2 {
+  .about h2,
+  .taste h2,
+  .sight h2,
+  .feeling h2,
+  .vibe h2,
+  .contact h2,
+  .events h2,
+  .ig h2 {
     font-size: 24px;
+    text-align: center;
+    margin: auto;
   }
 
-  .tasteimg, .sightimg, .feelingimg, .vibeimg {
+  .tasteimg,
+  .sightimg,
+  .feelingimg,
+  .vibeimg {
     width: 60%;
     margin-left: 20%;
   }
 
-  .about p, .taste p, .sight p, .feeling p, .vibe p {
+  .about p,
+  .taste p,
+  .sight p,
+  .feeling p,
+  .vibe p,
+  .contact p,
+  .comingevents p {
     font-size: 12px;
     max-width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    margin: 10%;
   }
-  .contact h2{
-    font-size: 24px;
-  }
-  .contact p{
-    font-size: 12px;
-    max-width: 100%;
-  }
+
   .google-map {
     position: relative;
     padding-bottom: 75%;
@@ -993,21 +655,18 @@ footer {
     height: 100% !important;
   }
 
-  .events h2 {
-    font-size: 24px;
-  }
-
   .events ul li {
     font-size: 12px;
     padding: 1%;
   }
-  .comingevents{
-    font-size: 12px;
-  }
-  .ig h2{
-    font-size: 24px;
-  }
-  .parallax, .parallaxone, .parallaxtwo, .parallaxthree, .parallaxfour, .parallaxfive, .parallaxsix{
+
+  .parallax,
+  .parallaxone,
+  .parallaxtwo,
+  .parallaxthree,
+  .parallaxfour,
+  .parallaxfive,
+  .parallaxsix {
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
