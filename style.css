@@ -85,6 +85,7 @@ span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
 }
 
 .taste {
@@ -122,6 +123,7 @@ span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
 
 
 }
@@ -146,6 +148,7 @@ span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
 }
 .feeling {
   /* margin-left: 5%; */
@@ -169,6 +172,7 @@ span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
 }
 
 .vibe {
@@ -194,6 +198,7 @@ span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
 }
 .menu {
   /* color: #fff; */
@@ -234,6 +239,7 @@ span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
 }
 .ig {
   background-color: #003015;
@@ -254,6 +260,7 @@ span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
 }
 .contact {
   text-align: center;
@@ -408,6 +415,7 @@ footer {
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    -webkit-background-size: cover;
   }
 }
 
@@ -483,6 +491,7 @@ footer {
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    -webkit-background-size: cover;
   }
 }
 
@@ -578,6 +587,7 @@ footer {
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    -webkit-background-size: cover;
   }
 }
 
@@ -675,6 +685,7 @@ footer {
     height:100%;
     background-repeat: no-repeat;
     background-position: center;
+    -webkit-background-size: cover;
   }
 }
 @media only screen and (max-width: 280px) {
@@ -756,5 +767,6 @@ footer {
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    -webkit-background-size: cover;
   }
 }
