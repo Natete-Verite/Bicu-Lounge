@@ -592,6 +592,8 @@ footer {
   .parallaxfive,
   .parallaxsix {
     width: 100%;
+    background-attachment: scroll;
+
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
@@ -695,6 +697,8 @@ footer {
     -webkit-background-size: cover;
   }
 }
+
+
 @media only screen and (max-width: 280px) {
   .about,
   .taste,
@@ -772,6 +776,7 @@ footer {
   .parallaxsix {
     width: 100%;
     height: 100%;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
