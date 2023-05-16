@@ -80,7 +80,8 @@ span {
 }
 .parallax {
   background-image: url("bicu16.jpeg");
-  min-height: 500px;
+    min-height: 80vh;
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -118,7 +119,8 @@ span {
 }
 .parallaxone {
   background-image: url("bicu6.JPG");
-  min-height: 500px;
+    min-height: 80vh;
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -143,7 +145,8 @@ span {
 }
 .parallaxtwo {
   background-image: url("bicu18.jpeg");
-  min-height: 500px;
+    min-height: 80vh;
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -167,7 +170,8 @@ span {
 }
 .parallaxthree {
   background-image: url("bicu19.jpeg");
-  min-height: 500px;
+    min-height: 80vh;
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -193,7 +197,8 @@ span {
 }
 .parallaxfour {
   background-image: url("bicu22.jpg");
-  min-height: 500px;
+    min-height: 80vh;
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -234,7 +239,8 @@ span {
 }
 .parallaxfive {
   background-image: url("bicu11.jpeg");
-  min-height: 500px;
+    min-height: 80vh;
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -255,7 +261,8 @@ span {
 
 .parallaxsix {
   background-image: url("bicu2.JPG");
-  min-height: 500px;
+    min-height: 80vh;
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
