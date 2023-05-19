@@ -6,16 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    
     <title>Bicu Lounge</title>
   </head>
   <body>
     <header>
       <nav>
         <div class="menu-toggle">
-          <i class="fa fa-bars"></i>
-          <i class="fa fa-times"></i>
-        </div>
-        <ul class="nav-list">
+        <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#taste">Taste</a></li>
           <li><a href="#sight">Sight</a></li>
@@ -26,6 +24,7 @@
           <li><a href="#ig">Gallery</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+      </div>
       </nav>
     </header>
 
@@ -142,13 +141,4 @@
       <p>Copyright © 2023 Bicu Lounge</p>
     </footer>
   </body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script>
-    $(document).ready(function() {
-    $('.menu-toggle').click(function() {
-      $('.nav-list').slideToggle();
-      $('.menu-toggle i').toggleClass('fa-bars fa-times');
-    })
-  })
-  </script>
 </html>
