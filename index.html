@@ -10,21 +10,22 @@
     <title>Bicu Lounge</title>
   </head>
   <body>
-    <header>
+      <header>
       <nav>
         <div class="menu-toggle">
-        <ul>
+          <i class="fa fa-bars"></i>
+          <i class="fa fa-times"></i>
+        </div>
+        <ul class="nav-list">
           <li><a href="#about">About</a></li>
           <li><a href="#taste">Taste</a></li>
           <li><a href="#sight">Sight</a></li>
-          <li><a href="#feel">Feel</a></li>
+          <li><a href="#feel">Feeling</a></li>
           <li><a href="#vibe">Vibe</a></li>
-          <li><a href="./menus.html">Menu</a></li>
           <li><a href="#events">Events</a></li>
           <li><a href="#ig">Gallery</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-      </div>
       </nav>
     </header>
 
@@ -141,4 +142,13 @@
       <p>Copyright © 2023 Bicu Lounge</p>
     </footer>
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+    $('.menu-toggle').click(function() {
+      $('.nav-list').slideToggle();
+      $('.menu-toggle i').toggleClass('fa-bars fa-times');
+    })
+  })
+  </script>
 </html>

@@ -30,7 +30,7 @@ header nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
 }
 
 header nav ul li {
@@ -43,10 +43,23 @@ header nav a {
   color: #fff;
   text-decoration: none;
 }
+
 nav a:hover {
   background: #ffda00;
   color: black;
 }
+
+.menu-toggle {
+  display: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.menu-toggle i.fa-times {
+  display: none;
+}
+
 
 .about {
   font-size: 40px;
@@ -351,6 +364,51 @@ footer {
 }
 
 @media only screen and (max-width: 880px) {
+  
+  header nav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex;
+}
+
+header nav ul li {
+  margin-right: 5%;
+}
+
+header nav a {
+  float: left;
+  padding: 14px 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: #ffda00;
+  color: black;
+}
+
+.menu-toggle {
+  display: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.menu-toggle i.fa-times {
+  display: none;
+}
+
   .about,
   .taste,
   .sight,
@@ -422,11 +480,18 @@ footer {
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    -webkit-background-size: cover;
   }
 }
 
 @media only screen and (max-width: 768px) {
+
+  header nav ul {
+    display: none;
+    flex-direction: column;
+  }
+  .menu-toggle {
+    display: block;
+  }
   .about,
   .taste,
   .sight,
@@ -503,6 +568,14 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
+
+  header nav ul {
+    display: none;
+    flex-direction: column;
+  }
+  .menu-toggle {
+    display: block;
+  }
   .about,
   .taste,
   .sight,
@@ -602,6 +675,14 @@ footer {
 
 
 @media only screen and (max-width: 380px) {
+
+  header nav ul {
+    display: none;
+    flex-direction: column;
+  }
+  .menu-toggle {
+    display: block;
+  }
   .about,
   .taste,
   .sight,
@@ -700,6 +781,14 @@ footer {
 
 
 @media only screen and (max-width: 280px) {
+
+  header nav ul {
+    display: none;
+    flex-direction: column;
+  }
+  .menu-toggle {
+    display: block;
+  }
   .about,
   .taste,
   .sight,
